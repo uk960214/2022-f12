@@ -8,11 +8,13 @@ type Prop = {
   statistics: Statistics;
 };
 
-type JobType = ['프론트엔드', '백엔드', '모바일', '기타'];
-type CareerLevel = ['경력 없음', '0-2년차', '3-5년차', '6년차 이상'];
-
-const jobTypeList: JobType = ['프론트엔드', '백엔드', '모바일', '기타'];
-const careerLevelList: CareerLevel = ['경력 없음', '0-2년차', '3-5년차', '6년차 이상'];
+const jobTypeList: JobTypeNames[] = ['프론트엔드', '백엔드', '모바일', '기타'];
+const careerLevelList: CareerLevelNames[] = [
+  '경력 없음',
+  '0-2년차',
+  '3-5년차',
+  '6년차 이상',
+];
 
 function BarGraph({ statistics }: Prop) {
   const [isJobType, setIsJobType] = useState(true);

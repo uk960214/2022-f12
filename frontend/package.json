@@ -31,6 +31,7 @@
     "@storybook/manager-webpack5": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
+    "@team-f12/f12-util-types": "^0.5.0",
     "@testing-library/cypress": "^8.0.3",
     "@trivago/prettier-plugin-sort-imports": "^3.3.0",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
